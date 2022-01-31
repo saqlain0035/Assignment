@@ -1,0 +1,11 @@
+a=input('Enter multiple values:')
+b=a.split()
+c=[]
+for i in b:
+  c.append(int(i))
+d=sum(c)
+print(d)
+
+Output:
+Enter multiple values:10 20 30 40
+100
